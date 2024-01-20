@@ -94,6 +94,23 @@ body {
   html {
     font-size: 61%;
   }
+
+  #hamburger-menu {
+    display: inline-block;
+  }
+
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 30rem;
+    background-color: white;
+    height: 100vh;
+  }
+
+  .navnar .navbar-nav.active {
+    right: 0;
+  }
 }
 
 /* handphone */
