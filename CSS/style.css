@@ -108,7 +108,7 @@ body {
     height: 100vh;
   }
 
-  .navnar .navbar-nav.active {
+  .navbar .navbar-nav.active {
     right: 0;
   }
 }
